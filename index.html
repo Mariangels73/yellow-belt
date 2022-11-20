@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+                <img src="img/leaf.png" alt="leaf" class="icono-barra1"><h1>EasyBay</h1><input type="text" placeholder="Search for anything.." class="busqueda">
+                <button>Sign In</button>
+                <img src="img/cart-dark.png" class="icono-barra2" alt="cart-dark" onclick="carAlert()">
+            </nav>
+            <ul>
+                <li><a href="#">Aeonion</a></li>
+                <li><a href="#">Andormischus</a></li>
+                <li><a href="#">Agave</a></li>
+                <li><a href="#">Aloe</a></li>
+                <li><a href="#">Anacampseros</a></li>
+                <li><a href="#">Aristaloe</a></li>
+                <li><a href="#">More...</a></li>
+            </ul>
+    </header>
+    <main>
+        <div class="especialidad">
+            <h2>Your Sourse for Serious Succulent Specialties</h2>
+        </div>
+        <!--Contenedor Grande-->
+        <div class="contenedor-general">
+            <div class="contenedor">
+                <div class="texto-img">
+                    <h3>Discover succ-<br> ulent varieties<br> one pot or rack<br> at a time!
+                    </h3>
+                    <a href="#"><h3>Discover<img src="img/arrow-light.png" alt="arrow" class="flecha"></h3></a>
+                </div>
+                <div class="texto-img">
+                    <img src="img/succulents-1.jpg" alt="succulents1" class="img-succu1" id="imagenes" onmouseover="cambio()" onmouseleave="normal()">
+                </div>
+            </div>
+
+            <div class="contenedor2">
+                <div class="bloque1">
+                    <img src="img/aloe-m.jpg" alt="aloe-m" class="img-aloem">
+                </div>
+                <div class="bloque1">
+                    <h4>Soothing Aloe <img src="img/arrow-light.png" alt="arrow" class="flecha"></h4>
+                </div>
+            </div>
+        </div>
+        <div class="img-infe">
+            <div class="jardin">
+                <img src="img/aeonium-s.jpg" alt="aeonium" class="planta">
+            </div>
+            <div class="jardin">
+                <img src="img/aloe-s.jpg" alt="aloe-s" class="planta">
+            </div>
+            <div class="jardin">
+                <img src="img/cactus-s.jpg" alt="cactus" class="planta">
+            </div>
+            <div class="jardin">
+                <img src="img/echeveria-s.jpg" alt="echeverria" class="planta">
+            </div>
+            <div class="jardin">
+                <img src="img/sedum-s.jpg" alt="sedum" class="planta">
+            </div>
+            <div class="jardin">
+                <img src="img/sempervivum-s.jpg" alt="sempervivum-s"  class="planta">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="cookie" id="btnCookies">
+            <img src="img/alert-dark.png" alt="alerta">
+            <div class="alerta">
+                <p>
+                    This site makes use of third-party cookies, by clicking "I accept"<br> you agree to the terms outlined in our <a id="police" href="#">cookies policy.</a>
+                </p>
+            </div>
+            <a href="#" class="button" onclick="btn()">I Accept</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
